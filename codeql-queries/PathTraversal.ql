@@ -10,6 +10,8 @@ import csharp
 
 from MethodAccess ma
 where 
-  // Используем hasQualifiedName для точного поиска System.IO.Path.Combine
-  ma.getTarget().hasQualifiedName("System.IO", "Path", "Combine")
+  // 1. Проверяем, что метод принадлежит классу "Path" в пространстве имен "System.IO"
+  ma.getTarget().getDeclaringType().hasQualifiedName("System.IO", "Path") and
+  // 2. Проверяем, что имя самого метода - "Combine"
+  ma.getTarget().hasName("Combine")
 select ma, "CVE-2023-30626: System.IO.Path.Combine is used. Ensure the path is sanitized using Path.GetFullPath() and validated against the base directory."

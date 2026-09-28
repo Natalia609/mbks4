@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Q4cmV+b5qy3w7wlYbTI0Asvhtfc1eIpAtAOKQX+92hI=",
+  "Source": "VulnerableApp",
+  "BasePath": "_content/VulnerableApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

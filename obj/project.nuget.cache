@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "dgSpecHash": "BSx71m26e6E=",
+  "success": true,
+  "projectFilePath": "/home/ubuntu/codeql-lab-demo/VulnerableApp.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+}

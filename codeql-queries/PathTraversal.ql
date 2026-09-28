@@ -1,14 +1,15 @@
 /**
- * @name Path Traversal Risk (CVE-2023-30626)
+ * @name Path Traversal Vulnerability (CVE-2023-30626)
+ * @description Detects System.IO.Path.Combine usage which may be vulnerable to path traversal if inputs are not sanitized.
  * @kind problem
  * @problem.severity error
  * @id cs/custom/path-traversal-jellyfin
+ * @tags security external/cwe/cwe-022
  */
 import csharp
 
 from MethodAccess ma
 where 
-  ma.getTarget().hasName("Combine") and
-  ma.getTarget().getDeclaringType().hasName("Path") and
-  ma.getTarget().getDeclaringType().getNamespace().hasName("System.IO")
-select ma, "CVE-2023-30626: System.IO.Path.Combine is used. Verify inputs are sanitized."
+  // Используем hasQualifiedName для точного поиска System.IO.Path.Combine
+  ma.getTarget().hasQualifiedName("System.IO", "Path", "Combine")
+select ma, "CVE-2023-30626: System.IO.Path.Combine is used. Ensure the path is sanitized using Path.GetFullPath() and validated against the base directory."

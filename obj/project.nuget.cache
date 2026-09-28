@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "BSx71m26e6E=",
+  "dgSpecHash": "LNuDPW56KvY=",
   "success": true,
-  "projectFilePath": "/home/ubuntu/codeql-lab-demo/VulnerableApp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/ubuntu/codeql-lab-demo/JellyfinCve.csproj",
+  "expectedPackageFiles": [
+    "/home/ubuntu/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/microsoft.netcore.app.ref/6.0.36/microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.36/microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512"
+  ],
   "logs": []
 }

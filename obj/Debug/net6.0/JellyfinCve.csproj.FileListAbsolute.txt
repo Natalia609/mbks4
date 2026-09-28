@@ -1,0 +1,13 @@
+/home/ubuntu/codeql-lab-demo/obj/Debug/net6.0/JellyfinCve.csproj.AssemblyReference.cache
+/home/ubuntu/codeql-lab-demo/obj/Debug/net6.0/JellyfinCve.GeneratedMSBuildEditorConfig.editorconfig
+/home/ubuntu/codeql-lab-demo/obj/Debug/net6.0/JellyfinCve.AssemblyInfoInputs.cache
+/home/ubuntu/codeql-lab-demo/obj/Debug/net6.0/JellyfinCve.AssemblyInfo.cs
+/home/ubuntu/codeql-lab-demo/obj/Debug/net6.0/JellyfinCve.csproj.CoreCompileInputs.cache
+/home/ubuntu/codeql-lab-demo/obj/Debug/net6.0/JellyfinCve.sourcelink.json
+/home/ubuntu/codeql-lab-demo/bin/Debug/net6.0/JellyfinCve.deps.json
+/home/ubuntu/codeql-lab-demo/bin/Debug/net6.0/JellyfinCve.dll
+/home/ubuntu/codeql-lab-demo/bin/Debug/net6.0/JellyfinCve.pdb
+/home/ubuntu/codeql-lab-demo/obj/Debug/net6.0/JellyfinCve.dll
+/home/ubuntu/codeql-lab-demo/obj/Debug/net6.0/refint/JellyfinCve.dll
+/home/ubuntu/codeql-lab-demo/obj/Debug/net6.0/JellyfinCve.pdb
+/home/ubuntu/codeql-lab-demo/obj/Debug/net6.0/ref/JellyfinCve.dll
